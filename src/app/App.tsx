@@ -1,6 +1,13 @@
+import {
+  RouterProvider,
+} from "react-router-dom";
+import '@/app/styles/output.css'
+
+import router from '@/app/providers/router'
+
 const App = () => {
   return (
-    <div></div>
+    <RouterProvider router={router} />
   )
 }
 
