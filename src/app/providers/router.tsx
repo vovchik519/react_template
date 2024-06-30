@@ -2,9 +2,9 @@ import {
     createBrowserRouter,
 } from "react-router-dom";
 import { NotFound, HomePage } from "@/pages"
-import WithScrollRestoration from "@/features/WithScrollRestoration";
+import ChangedPage from "@/features/ChangedPage";
 
-export default createBrowserRouter(WithScrollRestoration([
+export default createBrowserRouter(ChangedPage([
     {
         path: "/",
         element: <HomePage />
